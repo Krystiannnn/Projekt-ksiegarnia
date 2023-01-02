@@ -67,7 +67,7 @@ body
 
 .fb
 {
-    width: 250px;
+    width: 330px;
     height: 155px;
     float:left;
 }
@@ -79,7 +79,7 @@ body
 
 .yt
 {
-    width: 250px;
+    width: 330px;
     height: 155px;
     float:left;
 }
@@ -91,7 +91,7 @@ body
 
 .tw
 {
-    width: 250px;
+    width: 330px;
     height: 155px;
     float:left;
 }
@@ -211,4 +211,13 @@ ol > li > ul > li:hover > a
     
     height: 100%;
     padding: 1em;
+}
+
+.form {
+    
+    margin-left:auto;
+    margin-right: auto;
+    
+    
+
 }
