@@ -21,13 +21,13 @@
         </div> 
         <div class="nav">
             <ol>
-                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="index.php">Strona główna</a></li>
                 <li><a href="#">Kategorie</a>
                     <ul>
-                        <li><a href="#">Psychologiczne</a></li>
-                        <li><a href="#">Poradniki</a></li>
-                        <li><a href="#">Dramaty</a></li>
-                        <li><a href="#">Horrory</a></li>
+                        <li><a href="index.php?action=page1">Psychologiczne</a></li>
+                        <li><a href="index.php?action=page2">Przygodowe</a></li>
+                        <li><a href="index.php?action=page3">Klasyki</a></li>
+                        <li><a href="index.php?action=page4">Horrory</a></li>
                     </ul> 
                 </li>
                 <li><a href="nav/regulamin.html">Regulamin</a></li>

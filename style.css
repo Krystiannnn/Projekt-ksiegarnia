@@ -187,7 +187,7 @@ ol > li > ul > li:hover > a
     
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 1500px;
     text-align: center;
     padding: 0;
     margin-bottom: 25px;
@@ -196,28 +196,45 @@ ol > li > ul > li:hover > a
 
 .card {
     display: inline-block;
-    
-    width: 460px;
+    flex-direction: column;
+    max-width: 460px;
+    max-height: 830px;
     border: 4px solid white;
     border-radius: 8px;
     overflow: hidden;
-    text-align: center;
+    
     padding: 5px;
     
 }
 
-.card-body {
-    display: inline-block;
+.card img {
+    width: 100%;
+    height: 500px;
     
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     padding: 1em;
 }
 
-.form {
-    
-    margin-left:auto;
-    margin-right: auto;
-    
+.card-body h2 {
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+.card-body p {
+    margin-bottom: 1em;
     
 
+}
+
+
+.card-body .read-more {
+    margin-top: auto;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
 }

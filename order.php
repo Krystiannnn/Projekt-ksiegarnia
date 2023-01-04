@@ -1,4 +1,11 @@
-<?php session_start(); ?>
+<?php session_start(); 
+ 
+ if (!isset($_SESSION['zalogowany']))
+ {
+     header('Location: index.php');
+     exit();
+ }
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -6,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <?php
@@ -36,6 +44,7 @@ foreach($cart as $produktid) {
 
 }
 
+echo "<p>Dziękujemy za wysłanie zamówienia ".$_SESSION['user'].'!  <a href="logout.php"<span style="color: #c34f4f">Zakończ</span></a> </p>';
 
 ?>
 </body>
