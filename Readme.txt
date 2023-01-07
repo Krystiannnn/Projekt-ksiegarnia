@@ -10,3 +10,7 @@ Login testowy - adam
 Hasło testowe - qwertyuiop
 
 Plik koszyk.php rozpoznaje ifem klienta od gościa.
+
+Etapy dalszego rozwijania projektu:
+- podstrony z pliku nav podłączyć pod ifa z $_GET następnie podpiąć tekst przez require z innego pliku.
+- przerobić karty produktów na klasy i podpinać z osobnego pliku. 
